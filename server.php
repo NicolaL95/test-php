@@ -43,8 +43,6 @@ if (isset($_POST['reg_user'])) {
         $query = "INSERT INTO users (name,surname, email, password) 
   			  VALUES('$name','$surname', '$email', '$password')";
         mysqli_query($con, $query);
-        $_SESSION['name'] = $name;
-        $_SESSION['success'] = "You are now logged in";
         header('location: index.php');
     }
 }
