@@ -24,7 +24,7 @@
             <a href="register_form.php" class="btn btn-primary">Registrati</a>
         </div>
     </header>
-    <main id="main_container d-flex align-items-center">
+    <main id="main_container" class="d-flex align-items-center">
         <div class="container d-flex align-items-center">
             <div class="row jumbo_container align-items-center">
                 <div class="col-6">
